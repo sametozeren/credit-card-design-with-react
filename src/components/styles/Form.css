@@ -1,0 +1,26 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.flex .row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+}
+
+.flex .row label {
+    flex: 2;
+    justify-content: flex-end
+}
+
+.flex .row input {
+    flex: 1;
+    padding: 0;
+    border: 2px solid #61dafb;
+    line-height: 20px;
+    border-radius: 5px;
+}
